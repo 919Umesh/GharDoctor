@@ -7,6 +7,7 @@ import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:ghardoctor/core/services/api_service/api_constants.dart';
 import 'package:ghardoctor/core/services/api_service/api_endpoints.dart';
+import 'package:ghardoctor/core/services/injection/injection_helper.dart';
 import 'package:ghardoctor/core/utils/logger.dart';
 
 final apiProvider = locator<APIProvider>();
